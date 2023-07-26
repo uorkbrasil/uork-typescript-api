@@ -1,14 +1,11 @@
-﻿@echo off
-title Uork - API
-setlocal
+@title Uork
+@echo Uork - API
+@echo 1 - Consultar Status de um serviço
+@echo 2 - Consultar Conta
+@echo 3 - Consultar Notícias
+@echo 4 - Instalar Dependências
 
-echo Uork - API
-echo 1 - Consultar Status de um serviço
-echo 2 - Consultar Conta
-echo 3 - Consultar Notícias
-echo 4 - Instalar Dependências
-
-set /p option=Qual a escolha desejada: 
+@set /p option=Qual a escolha desejada: 
 
 if "%option%"=="1" (
    cls
